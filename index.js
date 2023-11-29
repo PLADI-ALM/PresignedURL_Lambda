@@ -41,4 +41,8 @@ exports.handler = async (event, context, callback) => {
 function getImageDir(imageDir) {
   if (imageDir === "photo") return "photo/";
   else if (imageDir === "video") return "video/";
+  else if (imageDir === "car") return "car/";
+  else if (imageDir === "resource") return "resource/";
+  else if (imageDir === "logo") return "logo/";
+  else if (imageDir === "office") return "office/"
 }
